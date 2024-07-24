@@ -1,0 +1,29 @@
+aside {
+    position: sticky;
+    display: block;
+
+
+    div {
+        margin-left: 0;
+        overflow-y: scroll;
+       border: 1px solid grey;
+        width: 200px;
+        display: block;
+        flex-wrap: wrap;
+        label{
+            display: block;
+        }
+        nav{
+            display: flex;
+            
+          div{
+               justify-content: end  ;
+            }
+        }
+        input{
+            width: 20px;
+            height: 20px;
+            color: blue;
+        }
+    }
+}

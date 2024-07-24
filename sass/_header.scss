@@ -1,0 +1,146 @@
+
+header {
+  
+    box-sizing: border-box;
+    margin: 0;
+
+    height: 50px;
+    width: 100%;
+    border: 1px solid whitesmoke;
+    background-color: #fff;
+    justify-content: space-evenly;
+
+    div {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        gap: 20px;
+        align-items: center;
+
+        section {
+            display: flex;
+
+            svg {
+                height: 20px;
+            }
+
+            h1 {
+                margin: 0;
+                color: lightgreen;
+                span{
+                    color: black;
+                }
+            }
+        }
+
+        section {
+            margin: 0;
+
+
+        }
+        .acer{
+            border: 1px solid black;
+            height: 40px;
+            align-items: center;
+            outline: none;
+            input{
+                outline: none;
+                height: 37px;
+            }
+        }
+        .container{
+            height: 40px;
+            ul {
+                text-decoration: none;
+            }
+        }
+        section button {
+
+                background-color: #e40046;
+                color: white;
+                text-align: center;
+                height: 38px;
+                border-radius: 8px;
+                border: 1px solid white;
+
+
+            }
+        
+    }
+      #list + .menu_strip{
+        display: none;
+      }
+
+      #list:checked + .menu_strip {
+        display: block;
+      }
+   
+ .links {
+        justify-content: space-evenly;
+        height: 40px;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        gap: 35px;
+
+        a {
+            text-decoration: none;
+                &:hover {
+                
+                text-decoration: underline blue;
+                color: black;
+                
+            }
+        }
+    }
+}
+
+.rels {
+     border: 1px solid lightgrey;
+    width: 100%;
+     position: relative;
+    margin-top: 60px;
+    display: flex;
+    gap: 90px;
+    background-color: #f4f4f4;
+    // justify-content: space-between;
+    align-items: center;
+    .start{
+        a{
+
+            text-decoration: none;
+        }
+        padding: 15px;
+        
+    }
+     .rek{
+        display: flex;
+        
+        
+        .end{
+            background: linear-gradient(0deg, #6b82f6, #6b82f6);
+            border: 2px solid white;
+            
+            height: 80px;
+       align-items: center;
+       width: 400px;
+       font-style: italic;
+       color: #fff;
+       text-align: center
+    }
+    .x{
+       @extend .end;
+        width: 50px;
+        font-style: normal;
+        align-items: center;
+        font-size: xx-large;
+        font-family: sans-serif;
+       
+       
+    }
+      
+   
+
+    }
+   
+}

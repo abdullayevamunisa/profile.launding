@@ -1,0 +1,63 @@
+.ddd{
+
+    .around{
+        display: block;
+        
+        .heading{
+            display: block;
+        }
+        .navbar{
+            display: flex;
+            border: 1px solid lightslategrey;
+            border-radius: 25px;
+            height:31px ;
+            gap: 10px;
+            width: 120px;
+            align-items: center;
+
+            img{
+                width: 30px;
+                height: 30px;
+                border-radius: 50%;
+                border: 1px solid black ;
+
+            }
+        }
+    }
+}
+footer{
+    height: 70vh;
+    width: 100%;
+    background-color: black;
+    padding-top: 10px;
+    margin-top: 20px;
+    div{
+        display: flex;
+        padding: 20px;
+        justify-content: space-evenly;
+        div{
+            display: block;
+            color: darkgray;
+            padding: 10px;
+            a{
+                text-decoration: none;
+                color: white;
+            }
+        }
+    }
+    nav{
+        padding: 10px;
+        a{
+            text-decoration: none;
+            color: white;
+        }
+    }
+    section{
+        justify-content: end;
+        input{
+            height: 40px;
+            width: 140px;
+            border-radius: 8px;
+        }
+    }
+}

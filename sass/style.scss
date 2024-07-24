@@ -1,0 +1,307 @@
+// header {
+//     box-sizing: border-box;
+//     margin: 0;
+
+//     height: 50px;
+//     width: 100%;
+//     border: 1px solid whitesmoke;
+//     background-color: #fff;
+//     justify-content: space-evenly;
+
+//     div {
+//         display: flex;
+//         justify-content: space-between;
+//         padding: 10px;
+//         gap: 20px;
+//         align-items: center;
+
+//         section {
+//             display: flex;
+
+//             svg {
+//                 height: 20px;
+//             }
+
+//             h1 {
+//                 margin: 0;
+//                 color: lightgreen;
+//                 span{
+//                     color: black;
+//                 }
+//             }
+//         }
+
+//         section {
+//             margin: 0;
+
+
+//         }
+//         .acer{
+//             border: 1px solid black;
+//             height: 40px;
+//             align-items: center;
+//             outline: none;
+//             input{
+//                 outline: none;
+//                 height: 37px;
+//             }
+//         }
+//         .container{
+//             height: 40px;
+//             ul {
+//                 text-decoration: none;
+//             }
+//         }
+//         section button {
+
+//                 background-color: #e40046;
+//                 color: white;
+//                 text-align: center;
+//                 height: 38px;
+//                 border-radius: 8px;
+//                 border: 1px solid white;
+
+
+//             }
+        
+//     }
+//       #list + .menu_strip{
+//         display: none;
+//       }
+
+//       #list:checked + .menu_strip {
+//         display: block;
+//       }
+   
+
+
+
+
+
+
+
+
+
+
+    
+//     .links {
+//         justify-content: space-evenly;
+//         height: 40px;
+//         position: absolute;
+//         display: flex;
+//         align-items: center;
+//         gap: 35px;
+
+//         a {
+//             text-decoration: none;
+//                 &:hover {
+                
+//                 text-decoration: underline blue;
+//                 color: black;
+                
+//             }
+//         }
+//     }
+// }
+
+// .rels {
+//      border: 1px solid lightgrey;
+//     width: 100%;
+//      position: relative;
+//     margin-top: 60px;
+//     display: flex;
+//     gap: 100px;
+//     background-color: #f4f4f4;
+//     justify-content: space-between;
+    
+
+//     .end{
+//         background: linear-gradient(0deg, #6b82f6, #6b82f6);
+//         border: 2px solid white;
+//        text-align: end;
+//        height: 80px;
+//        align-items: center;
+//        width: 400px;
+//        font-style: italic;
+//        color: #fff;
+//        margin-right: 28px;
+//        margin-top: 20px;
+
+//     }
+   
+// }
+
+// aside {
+//     position: sticky;
+//     display: block;
+
+
+//     div {
+//         margin-left: 0;
+//         overflow-y: scroll;
+//        border: 1px solid grey;
+//         width: 200px;
+//         display: block;
+//         flex-wrap: wrap;
+//         label{
+//             display: block;
+//         }
+//         nav{
+//             display: flex;
+            
+//           div{
+//                justify-content: end  ;
+//             }
+//         }
+//         input{
+//             width: 20px;
+//             height: 20px;
+//             color: blue;
+//         }
+//     }
+// }
+
+// main {
+//    width: 100%;
+//    height: 100%;
+//    overflow-x: scroll;
+//    overflow-y: scroll;
+//     .icob{
+//         height: 18px;
+//         width: 18px;
+//         border: 1px solid black;
+//         justify-content: flex-start;
+//        margin-left: 8px;
+//        margin-top: 10px;
+//     }
+    
+// div {   
+//         display: block;
+       
+//        .around{
+//        display: flex  ;
+//        gap: 7px;
+//        margin-top: 6px;
+//         .navbar{
+//             display: flex;
+//             border: 1px solid lightgrey;
+//             border-radius: 25px;
+//             height:42px ;
+//             gap: 5px;
+//             margin-bottom: 10px;
+//             transition: 0.5s;
+//             &:hover{
+//                 box-shadow: 4px -5px white;
+//                 transform: scale(1,1.1);
+//             }
+//             img{
+//                 border-radius: 50% ;
+//                 height: 40px;
+//                 width: 40px;
+//             }
+//         }
+//        }
+//         .double{
+//             justify-content: space-evenly;
+//             display: flex;
+//             gap: 15px;
+//             flex-wrap: wrap;
+
+//             .rasm {
+//                 height: 240px;
+//                 width: 245px;
+//                 border-radius: 10px;
+//                 transition: 0.5s;
+//                 border: 2px solid white;
+//                 overflow: hidden;
+               
+                
+//                 &:hover{
+//                     transform: translateY(-5px);
+//                     box-shadow: 0px -5px 15px grey;
+//                 }
+//                 img{
+//                     width: 100%;
+//                     height: 170px;
+//                 }
+            
+//             }
+//         }
+//     }
+// }
+// .asosiy{
+    
+//     display: flex;
+    
+//     border: 2px solid lightcyan;
+// }
+// .ddd{
+
+//     .around{
+//         display: block;
+        
+//         .heading{
+//             display: block;
+//         }
+//         .navbar{
+//             display: flex;
+//             border: 1px solid lightslategrey;
+//             border-radius: 25px;
+//             height:31px ;
+//             gap: 10px;
+//             width: 120px;
+//             align-items: center;
+
+//             img{
+//                 width: 30px;
+//                 height: 30px;
+//                 border-radius: 50%;
+//                 border: 1px solid black ;
+
+//             }
+//         }
+//     }
+// }
+// footer{
+//     height: 70vh;
+//     width: 100%;
+//     background-color: black;
+//     padding-top: 10px;
+//     margin-top: 20px;
+//     div{
+//         display: flex;
+//         padding: 20px;
+//         justify-content: space-evenly;
+//         div{
+//             display: block;
+//             color: darkgray;
+//             padding: 10px;
+//             a{
+//                 text-decoration: none;
+//                 color: white;
+//             }
+//         }
+//     }
+//     nav{
+//         padding: 10px;
+//         a{
+//             text-decoration: none;
+//             color: white;
+//         }
+//     }
+//     section{
+//         justify-content: end;
+//         input{
+//             height: 40px;
+//             width: 140px;
+//             border-radius: 8px;
+//         }
+//     }
+// }
+@import '_text.scss';
+  @import '_header.scss';
+  @import '_aside.scss';
+  @import '_main.scss';
+  @import '_footer.scss';
+
+
